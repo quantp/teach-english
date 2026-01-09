@@ -925,6 +925,15 @@
             .footer-grid {
                 grid-template-columns: 1fr;
             }
+
+            /* IELTS Section Mobile Styles */
+            .ielts-tech [style*="grid-template-columns: 1fr 2fr"] {
+                grid-template-columns: 1fr !important;
+            }
+
+            .ielts-tech [style*="grid-template-columns: repeat(2, 1fr)"] {
+                grid-template-columns: 1fr !important;
+            }
         }
     </style>
 </head>
@@ -934,7 +943,7 @@
         <div class="logo">TechEnglish.vn</div>
         <ul class="nav-links">
             <li><a href="#course">Khóa học</a></li>
-            <li><a href="#tutors">Giảng viên</a></li>
+            <li><a href="#ielts-tech">IELTS & Tech</a></li>
             <li><a href="#pricing">Bảng giá</a></li>
             <li><a href="#about">Về chúng tôi</a></li>
             <button class="cta-button">Đăng nhập</button>
@@ -944,7 +953,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Nắm vững <span class="highlight">Tiếng Anh IT</span> cho sự nghiệp công nghệ của bạn</h1>
+            <h1>Nắm vững <span class="highlight">Tiếng Anh IT</span> cho sự nghiệp Msng nghệ của bạn</h1>
             <p>Học 1-kèm-1 với giảng viên chuyên ngành IT. Tùy chỉnh hoàn toàn theo nhu cầu học tập và mục tiêu nghề nghiệp của bạn tại Việt Nam.</p>
             <div class="hero-buttons">
                 <button class="primary-btn">Tìm giảng viên ngay</button>
@@ -964,7 +973,7 @@
                 <div class="stat-card">
                     <div class="stat-icon">🎯</div>
                     <div class="stat-text">
-                        <h3>5,000+</h3>
+                        <h3>1,000+</h3>
                         <p>Học viên IT</p>
                     </div>
                 </div>
@@ -1007,39 +1016,39 @@
     <section class="features" id="course">
         <div class="section-header">
             <h2>Tại sao chọn TechEnglish.vn?</h2>
-            <p>Nền tảng học Tiếng Anh IT hàng đầu được thiết kế riêng cho các chuyên gia công nghệ Việt Nam</p>
+            <p>Nền tảng học Tiếng Anh IT hàng đầu được thiết kế riêng cho các chuyên gia Msng nghệ Việt Nam</p>
         </div>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">👨‍💻</div>
                 <h3>Giảng viên IT chuyên nghiệp</h3>
-                <p>Học với các giảng viên có kinh nghiệm làm việc trong các công ty công nghệ hàng đầu như Google, Microsoft, Amazon.</p>
+                <p>Học với các giảng viên có kinh nghiệm làm việc trong các Msng ty Msng nghệ hàng đầu như Google, Microsoft, Amazon.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🎯</div>
                 <h3>Chương trình cá nhân hóa</h3>
-                <p>Mỗi khóa học được thiết kế riêng dựa trên trình độ, mục tiêu và lĩnh vực công nghệ của bạn.</p>
+                <p>Mỗi khóa học được thiết kế riêng dựa trên trình độ, mục tiêu và lĩnh vực Msng nghệ của bạn.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📱</div>
                 <h3>Học mọi lúc mọi nơi</h3>
-                <p>Học trực tuyến qua máy tính hoặc ứng dụng di động. Linh hoạt lịch học phù hợp với công việc của bạn.</p>
+                <p>Học trực tuyến qua máy tính hoặc ứng dụng di động. Linh hoạt lịch học phù hợp với Msng việc của bạn.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">💼</div>
                 <h3>Chuẩn bị phỏng vấn</h3>
-                <p>Luyện tập phỏng vấn tiếng Anh cho các vị trí kỹ sư, developer, product manager tại công ty quốc tế.</p>
+                <p>Luyện tập phỏng vấn tiếng Anh cho các vị trí kỹ sư, developer, product manager tại Msng ty quốc tế.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📚</div>
                 <h3>Tài liệu thực tế</h3>
                 <p>Sử dụng tài liệu từ các dự án thực tế: technical documentation, code review, sprint planning.</p>
             </div>
-            <div class="feature-card">
+            <!-- <div class="feature-card">
                 <div class="feature-icon">🏆</div>
                 <h3>Chứng chỉ quốc tế</h3>
-                <p>Nhận chứng chỉ hoàn thành khóa học được công nhận bởi các công ty công nghệ trong và ngoài nước.</p>
-            </div>
+                <p>Nhận chứng chỉ hoàn thành khóa học được Msng nhận bởi các Msng ty Msng nghệ trong và ngoài nước.</p>
+            </div> -->
         </div>
     </section>
 
@@ -1132,7 +1141,8 @@
         </div>
     </section>
 
-    <!-- Tutors Section -->
+    <!-- Tutors Section - TEMPORARILY COMMENTED OUT -->
+    <!--
     <section class="tutors" id="tutors">
         <div class="section-header">
             <h2>Giảng viên hàng đầu</h2>
@@ -1181,6 +1191,137 @@
             </div>
         </div>
     </section>
+    -->
+
+    <!-- IELTS & Tech Conversation Section -->
+    <section class="ielts-tech" id="ielts-tech" style="padding: 6rem 5%; background: white;">
+        <div class="section-header">
+            <h2>IELTS & Tech Conversation English</h2>
+            <p style="font-size: 1.3rem; font-weight: 600; color: var(--text-dark); margin-bottom: 2rem;">Speak for Work, Score for IELTS</p>
+        </div>
+
+        <div style="max-width: 900px; margin: 0 auto;">
+            <!-- Problem Statement -->
+            <div style="background: linear-gradient(135deg, rgba(255, 71, 87, 0.05) 0%, rgba(255, 165, 2, 0.05) 100%); padding: 3rem; border-radius: 20px; margin-bottom: 3rem; border-left: 5px solid var(--primary);">
+                <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem; color: var(--text-dark);">Rất nhiều lập trình viên rơi vào tình trạng:</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                        <span style="color: var(--primary); font-size: 1.5rem; flex-shrink: 0;">❌</span>
+                        <span style="font-size: 1.1rem; line-height: 1.6;">Có thể làm việc bằng tiếng Anh nhưng IELTS Speaking không cao</span>
+                    </li>
+                    <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                        <span style="color: var(--primary); font-size: 1.5rem; flex-shrink: 0;">❌</span>
+                        <span style="font-size: 1.1rem; line-height: 1.6;">Hoặc có IELTS nhưng không nói được trong môi trường tech</span>
+                    </li>
+                    <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem;">
+                        <span style="color: var(--primary); font-size: 1.5rem; flex-shrink: 0;">❌</span>
+                        <span style="font-size: 1.1rem; line-height: 1.6;">Học IELTS thì "nói cho giám khảo", đi làm thì lại không biết nói sao cho đúng ngữ cảnh</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Solution -->
+            <div style="background: var(--gradient-2); padding: 3rem; border-radius: 20px; margin-bottom: 3rem; color: white;">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                    <span style="font-size: 2.5rem;">👉</span>
+                    <h3 style="font-size: 1.8rem; margin: 0;">Khóa học này được thiết kế để giải quyết cả hai cùng lúc:</h3>
+                </div>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem; border-bottom: 1px solid rgba(255,255,255,0.2);">
+                        <span style="color: var(--success); font-size: 1.5rem; flex-shrink: 0;">✓</span>
+                        <span style="font-size: 1.1rem; line-height: 1.6;">Sử dụng IELTS trong thực tế đi làm môi trường Msng nghệ</span>
+                    </li>
+                    <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem;">
+                        <span style="color: var(--success); font-size: 1.5rem; flex-shrink: 0;">✓</span>
+                        <span style="font-size: 1.1rem; line-height: 1.6;">Đạt điểm IELTS Speaking cao và ổn định</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Teacher Profile -->
+            <div style="background: var(--bg-light); padding: 3rem; border-radius: 20px; margin-bottom: 3rem;">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                    <span style="font-size: 2rem;">👩‍🏫</span>
+                    <h3 style="font-size: 1.8rem; margin: 0; color: var(--text-dark);">Giáo viên – HỒNG HẠNH</h3>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: center; margin-bottom: 2rem;">
+                    <!-- Teacher Avatar -->
+                    <div style="text-align: center;">
+                        <div style="width: 180px; height: 180px; border-radius: 50%; background: var(--gradient-1); display: flex; align-items: center; justify-content: center; font-size: 4rem; color: white; font-weight: 700; margin: 0 auto; box-shadow: 0 10px 30px rgba(255, 71, 87, 0.3);">
+                            HH
+                        </div>
+                        <div style="margin-top: 1rem; padding: 0.8rem 1.5rem; background: var(--accent); color: white; border-radius: 50px; font-weight: 700; display: inline-block; font-size: 1.2rem;">
+                            IELTS 8.0
+                        </div>
+                    </div>
+
+                    <!-- Teacher Credentials -->
+                    <div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                                <span style="color: var(--primary); font-size: 1.3rem; flex-shrink: 0;">🏆</span>
+                                <span style="font-size: 1.1rem; line-height: 1.6;"><strong>IELTS 8.0</strong> với kinh nghiệm giảng dạy IELTS 4 năm</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                                <span style="color: var(--primary); font-size: 1.3rem; flex-shrink: 0;">⭐</span>
+                                <span style="font-size: 1.1rem; line-height: 1.6;"><strong>Học sinh giỏi quốc gia</strong> tiếng Anh</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem;">
+                                <span style="color: var(--primary); font-size: 1.3rem; flex-shrink: 0;">💼</span>
+                                <span style="font-size: 1.1rem; line-height: 1.6;">Hiện đang làm <strong>Product Manager</strong> cho một Msng ty Msng nghệ của Pháp</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Unique Value Proposition -->
+                <div style="background: white; padding: 2rem; border-radius: 15px; border-left: 4px solid var(--accent);">
+                    <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-dark); margin: 0;">
+                        <strong style="color: var(--primary);">Điểm khác biệt:</strong> Ms Hồng Hạnh không chỉ là giáo viên IELTS mà còn đang làm việc trực tiếp trong môi trường tech quốc tế. Vì vậy, học viên không chỉ học "nói cho giám khảo" mà còn học cách giao tiếp thực tế trong Msng việc hàng ngày.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Course Details -->
+            <div style="background: white; border: 3px solid var(--primary); padding: 3rem; border-radius: 20px;">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                    <span style="font-size: 2rem;">📚</span>
+                    <h3 style="font-size: 1.8rem; margin: 0; color: var(--text-dark);">Chương trình và thời gian học</h3>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📅</div>
+                        <div style="font-weight: 700; font-size: 1.3rem; color: var(--primary); margin-bottom: 0.5rem;">Lịch học</div>
+                        <div style="font-size: 1.1rem; color: var(--text-light);">2 buổi/tuần</div>
+                    </div>
+
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">💻</div>
+                        <div style="font-weight: 700; font-size: 1.3rem; color: var(--primary); margin-bottom: 0.5rem;">Hình thức</div>
+                        <div style="font-size: 1.1rem; color: var(--text-light);">Online qua Zoom</div>
+                    </div>
+
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; grid-column: 1 / -1;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">⏱️</div>
+                        <div style="font-weight: 700; font-size: 1.3rem; color: var(--primary); margin-bottom: 0.5rem;">Thời lượng khóa học</div>
+                        <div style="font-size: 1.1rem; color: var(--text-light);">Khóa học IELTS và nói căn bản: <strong style="color: var(--text-dark);">4 tháng</strong></div>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div style="margin-top: 2.5rem; text-align: center;">
+                    <button class="primary-btn" style="font-size: 1.2rem; padding: 1.5rem 3rem;">
+                        Đăng ký học với Ms Hồng Hạnh
+                    </button>
+                    <p style="margin-top: 1rem; color: var(--text-light); font-size: 0.95rem;">
+                        <strong style="color: var(--primary);">Ưu đãi đặc biệt:</strong> Giảm 20% cho 10 học viên đăng ký đầu tiên
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Pricing -->
     <section class="pricing" id="pricing">
@@ -1191,18 +1332,18 @@
         <div class="pricing-grid">
             <div class="pricing-card">
                 <div class="pricing-name">Starter</div>
-                <div class="pricing-price">1.5tr</div>
+                <div class="pricing-price">1.8tr</div>
                 <div class="pricing-duration">8 buổi/tháng</div>
                 <ul class="pricing-features">
-                    <li>2 buổi học/tuần (50 phút)</li>
+                    <li>2 buổi học/tuần</li>
                     <li>Tài liệu học tập cơ bản</li>
                     <li>Ghi âm buổi học</li>
                     <li>Email hỗ trợ</li>
-                    <li>Chứng chỉ hoàn thành</li>
+                    <!-- <li>Chứng chỉ hoàn thành</li> -->
                 </ul>
                 <button class="pricing-btn">Chọn gói này</button>
             </div>
-            <div class="pricing-card featured">
+            <!-- <div class="pricing-card featured">
                 <div class="popular-badge">PHỔ BIẾN NHẤT</div>
                 <div class="pricing-name">Professional</div>
                 <div class="pricing-price">2.8tr</div>
@@ -1232,7 +1373,7 @@
                     <li>Lifetime access</li>
                 </ul>
                 <button class="pricing-btn">Liên hệ tư vấn</button>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -1297,25 +1438,25 @@
         <div class="footer-grid">
             <div class="footer-about">
                 <h3>TechEnglish.vn</h3>
-                <p>Nền tảng học Tiếng Anh IT hàng đầu Việt Nam. Giúp các chuyên gia công nghệ tự tin giao tiếp và thăng tiến trong sự nghiệp quốc tế.</p>
-                <div class="social-links">
+                <p>Nền tảng học Tiếng Anh IT hàng đầu Việt Nam. Giúp các chuyên gia Msng nghệ tự tin giao tiếp và thăng tiến trong sự nghiệp quốc tế.</p>
+                <!-- <div class="social-links">
                     <a href="#">📘</a>
                     <a href="#">📷</a>
                     <a href="#">🔗</a>
                     <a href="#">📺</a>
-                </div>
+                </div> -->
             </div>
             <div class="footer-column">
                 <h4>Sản phẩm</h4>
                 <ul>
-                    <li><a href="#">Tìm giảng viên</a></li>
+                    <!-- <li><a href="#">Tìm giảng viên</a></li> -->
                     <li><a href="#">Khóa học IT</a></li>
                     <li><a href="#">Luyện phỏng vấn</a></li>
-                    <li><a href="#">Chứng chỉ</a></li>
+                    <!-- <li><a href="#">Chứng chỉ</a></li> -->
                 </ul>
             </div>
             <div class="footer-column">
-                <h4>Công ty</h4>
+                <h4>Msng ty</h4>
                 <ul>
                     <li><a href="#">Về chúng tôi</a></li>
                     <li><a href="#">Trở thành giảng viên</a></li>
